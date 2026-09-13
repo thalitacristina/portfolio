@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <meta http-equiv="Content-Security-Policy" 
+          content="default-src 'self'; 
+                   script-src 'self' https://cdnjs.cloudflare.com; 
+                   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+                   font-src 'self' https://fonts.gstatic.com; 
+                   img-src 'self' data: https:; 
+                   upgrade-insecure-requests;">
+                   
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+    <title>Thalita Santos | Desenvolvedora Web & CyberSec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="logo">&lt;Thalita.Dev/&gt;</h1>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Certificações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h2>Olá, eu sou a <span class="highlight">Thalita Santos</span></h2>
+                    <p>Desenvolvedora Web Frontend & Entusiasta de Cibersegurança</p>
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="btn primary">Ver Projetos</a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn secondary">GitHub</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Substitua 'minha-foto.jpg' pelo arquivo da sua foto ou avatar -->
+                    <img src="minha-foto.jpg.jfif" alt="Foto profissional de Thalita Santos">
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Estudante dedicada ao desenvolvimento web full-stack e cibersegurança. Tenho foco na construção de interfaces semânticas e responsivas usando HTML5, CSS3 e JavaScript. Possuo formação prática em infraestrutura de redes e segurança pela Cisco Networking Academy, e atualmente expando minhas habilidades aprendendo <strong>Python</strong> para automação e lógica de programação.</p>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="skills" class="section gray-bg">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML5 Semântico, CSS3 (Flexbox/Grid), JavaScript ES6+, Layouts Responsivos</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Redes & Cibersegurança</h3>
+                    <p>Cisco IOS, IPv4 Subnetting, Redes de Computadores e Arquitetura de Comunicação, Cibersegurança, Proteção de Dados e Conscientização Digital</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python (Em Aprendizado)</h3>
+                    <p>Sintaxe Básica, Estruturas de Decisão e Repetição, Lógica e Scripts de Automação</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Ferramentas & Workflow</h3>
+                    <p>VS Code, Git & GitHub, Versionamento de Código</p>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="projetos" class="section">
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <div class="project-info">
+                        <h3>CyberGuard Dashboard</h3>
+                        <p>Painel interativo de monitoramento com foco em cibersegurança, incluindo visualização de mapa de ameaças globais e logs do sistema.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Cybersecurity</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-info">
+                        <h3>Sabores & Memórias</h3>
+                        <p>Livro de receitas digital interativo com design vintage, categorização por tipos de prato e navegação fluida.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS Responsivo</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-info">
+                        <h3>Primeiros Scripts em Python</h3>
+                        <p>Repositório de estudos práticos contendo meus primeiros algoritmos, exercícios de lógica e utilitários em Python 3.</p>
+                        <div class="tags">
+                            <span>Python 3</span>
+                            <span>Algoritmos</span>
+                            <span>Estudos</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        
+        <section id="formacao" class="section gray-bg">
+            <h2>Formação & Certificações</h2>
+            <ul class="timeline">
+                <li>
+                    <strong>BYU-Pathway Worldwide</strong> — Programa Acadêmico / PC103 (Em andamento)
+                </li>
+                <li>
+                    <strong>Dispositivos de Rede e Configuração Inicial</strong> — Cisco Networking Academy (Set/2026)
+                    <br><small class="text-muted">Competências: Cisco IOS, IPv4 Subnetting e configurações de rede.</small>
+                </li>
+                <li>
+                    <strong>Conceitos Básicos de Redes</strong> — Cisco Networking Academy / JA Brasil (Jul/2026)
+                    <br><small class="text-muted">Competências: Redes de Computadores e Arquitetura de Comunicação.</small>
+                </li>
+                <li>
+                    <strong>Introdução à Cibersegurança</strong> — Cisco Networking Academy / JA Brasil (Jun/2026)
+                    <br><small class="text-muted">Competências: Cibersegurança, Proteção de Dados e Conscientização Digital.</small>
+                </li>
+                <li>
+                    <strong>Curso Web Frontend Fundamentos</strong> — Udemy (HTML, CSS, JavaScript)
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contato" class="footer">
+        <p>Conecte-se comigo:</p>
+        <div class="social-links">
+            <a href="https://github.com/thalitacristina/thalitacristina" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/thalita-s-santos
+" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <p class="copyright">&copy; 2026 Thalita Santos. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
